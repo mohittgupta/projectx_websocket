@@ -1,0 +1,1263 @@
+MainThread - 10488 - 2025-06-24 14:14:20,087  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 10488 - 2025-06-24 14:14:27,913  - app - connect - 152 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:30,183  - app - on_connected - 82 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,893  - app - on_order_update - 63 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1277651384, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:44:44.1545621+00:00', 'updateTimestamp': '2025-06-24T08:44:44.1545621+00:00', 'status': 6, 'type': 2, 'side': 1, 'size': 1, 'fillVolume': 0}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,915  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1062155255, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:44:44.1599282+00:00', 'price': 22300.5, 'profitAndLoss': -14.5, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1277651384}}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,939  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1062152437, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:41:43.729242+00:00', 'price': 22307.75, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1277648122}}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,940  - app - on_order_update - 63 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1277651384, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:44:44.1545621+00:00', 'updateTimestamp': '2025-06-24T08:44:44.1545621+00:00', 'status': 2, 'type': 2, 'side': 1, 'size': 1, 'fillVolume': 1}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,941  - app - on_order_update - 63 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1277648162, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:41:44.610262+00:00', 'updateTimestamp': '2025-06-24T08:44:44.167404+00:00', 'status': 3, 'type': 4, 'side': 1, 'size': 1, 'stopPrice': 22257.75, 'fillVolume': 0}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,942  - app - on_order_update - 63 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1277648163, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:41:44.610262+00:00', 'updateTimestamp': '2025-06-24T08:44:44.167409+00:00', 'status': 3, 'type': 1, 'side': 1, 'size': 1, 'limitPrice': 22357.75, 'fillVolume': 0}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,943  - app - on_position_update - 72 - INFO - [N/A] - Position update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 2, 'data': {'id': 287983803, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-24T08:41:43.735594+00:00', 'type': 0, 'size': 0, 'averagePrice': 22307.75}}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:45,947  - app - on_account_update - 59 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151846.2, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 18808 - 2025-06-24 14:14:48,297  - app - on_account_update - 59 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151846.2, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+MainThread - 10488 - 2025-06-24 14:20:22,576  - app - cleanup_connections - 184 - INFO - [N/A] - Stopped connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480 during shutdown
+MainThread - 21804 - 2025-06-25 08:11:14,468  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 8980 - 2025-06-25 08:13:18,287  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 7900 - 2025-06-25 08:14:29,348  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 7900 - 2025-06-25 08:14:33,507  - app - connect - 195 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+MainThread - 7900 - 2025-06-25 08:14:34,354  - app - start - 154 - ERROR - [N/A] - Error during connection start for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): object bool can't be used in 'await' expression
+MainThread - 7900 - 2025-06-25 08:14:34,354  - app - on_disconnected - 109 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 7900 - 2025-06-25 08:14:34,354  - app - on_disconnected - 112 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 7900 - 2025-06-25 08:14:40,158  - app - on_disconnected - 117 - ERROR - [N/A] - Retry attempt 1 failed for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): object bool can't be used in 'await' expression
+MainThread - 7900 - 2025-06-25 08:21:46,089  - app - unsubscribe_all - 147 - ERROR - [N/A] - Error unsubscribing for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): Hub is not running you cand send messages
+MainThread - 21492 - 2025-06-25 08:23:06,903  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 21492 - 2025-06-25 08:23:10,115  - app - connect - 233 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 19540 - 2025-06-25 08:23:11,916  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 14652 - 2025-06-25 08:23:11,918  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 7160 - 2025-06-25 08:23:11,918  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 7160 - 2025-06-25 08:23:11,919  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 7160 - 2025-06-25 08:23:13,756  - app - sending_email - 63 - INFO - [N/A] - sending mail
+asyncio_0 - 14652 - 2025-06-25 08:24:10,153  - app - send_email - 30 - INFO - [N/A] - Your account has been manually disconnected.
+Thread-4 (sending_email) - 14724 - 2025-06-25 08:24:10,154  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been manually disconnected.     mail_type disconnect
+Thread-4 (sending_email) - 14724 - 2025-06-25 08:24:10,154  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-4 (sending_email) - 14724 - 2025-06-25 08:24:11,983  - app - sending_email - 63 - INFO - [N/A] - sending mail
+MainThread - 11472 - 2025-06-25 08:27:51,703  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 11472 - 2025-06-25 08:27:55,730  - app - connect - 233 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 6916 - 2025-06-25 08:27:57,589  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 22440 - 2025-06-25 08:27:57,594  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 11856 - 2025-06-25 08:27:57,595  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 11856 - 2025-06-25 08:27:57,596  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 11856 - 2025-06-25 08:27:59,401  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+asyncio_0 - 22440 - 2025-06-25 08:28:18,386  - app - send_email - 30 - INFO - [N/A] - Your account has been manually disconnected.
+Thread-4 (sending_email) - 16584 - 2025-06-25 08:28:18,387  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been manually disconnected.     mail_type disconnect
+Thread-4 (sending_email) - 16584 - 2025-06-25 08:28:18,387  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-4 (sending_email) - 16584 - 2025-06-25 08:28:20,245  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+MainThread - 4104 - 2025-06-25 08:30:38,057  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 4104 - 2025-06-25 08:30:41,181  - app - connect - 233 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 20172 - 2025-06-25 08:30:43,245  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:43,249  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:44,950  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-3 (<lambda>) - 13184 - 2025-06-25 08:30:45,152  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-3 (<lambda>) - 13184 - 2025-06-25 08:30:45,154  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:30:45,744  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+MainThread - 4104 - 2025-06-25 08:30:45,746  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-7 (sending_email) - 11420 - 2025-06-25 08:30:45,747  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-7 (sending_email) - 11420 - 2025-06-25 08:30:45,749  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-4 (<lambda>) - 14216 - 2025-06-25 08:30:45,852  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-4 (<lambda>) - 14216 - 2025-06-25 08:30:45,852  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:46,609  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-6 (<lambda>) - 17452 - 2025-06-25 08:30:46,736  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-6 (<lambda>) - 17452 - 2025-06-25 08:30:46,739  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:47,416  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-8 (<lambda>) - 3884 - 2025-06-25 08:30:47,472  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-8 (<lambda>) - 3884 - 2025-06-25 08:30:47,472  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-7 (sending_email) - 11420 - 2025-06-25 08:30:47,553  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+asyncio_0 - 7312 - 2025-06-25 08:30:49,077  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+MainThread - 4104 - 2025-06-25 08:30:49,078  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-13 (sending_email) - 20424 - 2025-06-25 08:30:49,080  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-13 (sending_email) - 20424 - 2025-06-25 08:30:49,082  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-11 (<lambda>) - 316 - 2025-06-25 08:30:49,232  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-11 (<lambda>) - 316 - 2025-06-25 08:30:49,233  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-12 (<lambda>) - 4480 - 2025-06-25 08:30:49,891  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-14 (<lambda>) - 21112 - 2025-06-25 08:30:50,005  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-14 (<lambda>) - 21112 - 2025-06-25 08:30:50,006  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-13 (sending_email) - 20424 - 2025-06-25 08:30:50,964  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+MainThread - 4104 - 2025-06-25 08:30:51,563  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:30:52,362  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+Thread-22 (sending_email) - 3004 - 2025-06-25 08:30:52,366  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-22 (sending_email) - 3004 - 2025-06-25 08:30:52,367  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-18 (<lambda>) - 1276 - 2025-06-25 08:30:52,502  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-18 (<lambda>) - 1276 - 2025-06-25 08:30:52,503  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-21 (<lambda>) - 3300 - 2025-06-25 08:30:53,153  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-23 (<lambda>) - 18512 - 2025-06-25 08:30:53,336  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-23 (<lambda>) - 18512 - 2025-06-25 08:30:53,336  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-22 (sending_email) - 3004 - 2025-06-25 08:30:54,176  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+MainThread - 4104 - 2025-06-25 08:30:54,934  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-29 (<lambda>) - 9200 - 2025-06-25 08:30:55,007  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-29 (<lambda>) - 9200 - 2025-06-25 08:30:55,010  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-30 (<lambda>) - 14416 - 2025-06-25 08:30:55,711  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-31 (<lambda>) - 11156 - 2025-06-25 08:30:55,787  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-31 (<lambda>) - 11156 - 2025-06-25 08:30:55,787  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:55,793  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:30:55,793  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-35 (sending_email) - 15584 - 2025-06-25 08:30:55,797  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-35 (sending_email) - 15584 - 2025-06-25 08:30:55,797  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:30:57,559  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-35 (sending_email) - 15584 - 2025-06-25 08:30:57,622  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-37 (<lambda>) - 18804 - 2025-06-25 08:30:57,624  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-37 (<lambda>) - 18804 - 2025-06-25 08:30:57,625  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-38 (<lambda>) - 5584 - 2025-06-25 08:30:58,345  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-39 (<lambda>) - 14320 - 2025-06-25 08:30:58,452  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-39 (<lambda>) - 14320 - 2025-06-25 08:30:58,452  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:59,312  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:30:59,313  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 2/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:30:59,314  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+Thread-44 (sending_email) - 16480 - 2025-06-25 08:30:59,318  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-44 (sending_email) - 16480 - 2025-06-25 08:30:59,318  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:00,928  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 3/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:00,928  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:00,928  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:00,928  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+asyncio_1 - 9112 - 2025-06-25 08:31:00,929  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:00,929  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-49 (sending_email) - 12084 - 2025-06-25 08:31:00,929  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+MainThread - 4104 - 2025-06-25 08:31:00,929  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-50 (sending_email) - 14976 - 2025-06-25 08:31:00,930  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-49 (sending_email) - 12084 - 2025-06-25 08:31:00,930  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 7312 - 2025-06-25 08:31:00,930  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:00,930  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-50 (sending_email) - 14976 - 2025-06-25 08:31:00,930  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_1 - 9112 - 2025-06-25 08:31:00,931  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-51 (sending_email) - 14492 - 2025-06-25 08:31:00,931  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+asyncio_2 - 18884 - 2025-06-25 08:31:00,932  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:00,932  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-52 (sending_email) - 12948 - 2025-06-25 08:31:00,932  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-51 (sending_email) - 14492 - 2025-06-25 08:31:00,933  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:00,933  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:00,933  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-53 (sending_email) - 18268 - 2025-06-25 08:31:00,934  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-52 (sending_email) - 12948 - 2025-06-25 08:31:00,934  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:00,935  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:00,935  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-53 (sending_email) - 18268 - 2025-06-25 08:31:00,935  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-54 (sending_email) - 18784 - 2025-06-25 08:31:00,965  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+MainThread - 4104 - 2025-06-25 08:31:00,966  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:00,966  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-55 (sending_email) - 1808 - 2025-06-25 08:31:00,966  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-54 (sending_email) - 18784 - 2025-06-25 08:31:00,967  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:00,967  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:00,967  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-55 (sending_email) - 1808 - 2025-06-25 08:31:00,968  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-56 (sending_email) - 5264 - 2025-06-25 08:31:00,968  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+MainThread - 4104 - 2025-06-25 08:31:00,968  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:00,968  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-57 (sending_email) - 17972 - 2025-06-25 08:31:00,969  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-56 (sending_email) - 5264 - 2025-06-25 08:31:00,969  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 18884 - 2025-06-25 08:31:00,970  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:00,970  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-57 (sending_email) - 17972 - 2025-06-25 08:31:00,971  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-58 (sending_email) - 6124 - 2025-06-25 08:31:00,971  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+MainThread - 4104 - 2025-06-25 08:31:00,972  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:00,972  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-59 (sending_email) - 15412 - 2025-06-25 08:31:00,972  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-58 (sending_email) - 6124 - 2025-06-25 08:31:00,972  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:00,973  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:00,973  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-59 (sending_email) - 15412 - 2025-06-25 08:31:00,973  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 18884 - 2025-06-25 08:31:00,974  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-60 (sending_email) - 13420 - 2025-06-25 08:31:00,975  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-61 (sending_email) - 3240 - 2025-06-25 08:31:00,976  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-62 (sending_email) - 7428 - 2025-06-25 08:31:00,977  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-60 (sending_email) - 13420 - 2025-06-25 08:31:00,977  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-61 (sending_email) - 3240 - 2025-06-25 08:31:00,977  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-62 (sending_email) - 7428 - 2025-06-25 08:31:00,978  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-44 (sending_email) - 16480 - 2025-06-25 08:31:01,155  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-48 (<lambda>) - 2476 - 2025-06-25 08:31:01,759  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-65 (<lambda>) - 13104 - 2025-06-25 08:31:02,616  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-63 (<lambda>) - 16392 - 2025-06-25 08:31:02,638  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-63 (<lambda>) - 16392 - 2025-06-25 08:31:02,638  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:02,682  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-52 (sending_email) - 12948 - 2025-06-25 08:31:02,711  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-50 (sending_email) - 14976 - 2025-06-25 08:31:02,730  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-51 (sending_email) - 14492 - 2025-06-25 08:31:02,731  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-59 (sending_email) - 15412 - 2025-06-25 08:31:02,793  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-60 (sending_email) - 13420 - 2025-06-25 08:31:02,814  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-53 (sending_email) - 18268 - 2025-06-25 08:31:02,841  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-54 (sending_email) - 18784 - 2025-06-25 08:31:02,842  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-58 (sending_email) - 6124 - 2025-06-25 08:31:02,859  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-56 (sending_email) - 5264 - 2025-06-25 08:31:02,863  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-57 (sending_email) - 17972 - 2025-06-25 08:31:02,866  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-55 (sending_email) - 1808 - 2025-06-25 08:31:02,870  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-62 (sending_email) - 7428 - 2025-06-25 08:31:02,874  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-61 (sending_email) - 3240 - 2025-06-25 08:31:02,879  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-49 (sending_email) - 12084 - 2025-06-25 08:31:02,895  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-10 (<lambda>) - 19948 - 2025-06-25 08:31:03,272  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-10 (<lambda>) - 19948 - 2025-06-25 08:31:03,273  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-10 (<lambda>) - 19948 - 2025-06-25 08:31:03,273  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-66 (<lambda>) - 13376 - 2025-06-25 08:31:03,495  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-66 (<lambda>) - 13376 - 2025-06-25 08:31:03,496  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-70 (<lambda>) - 20332 - 2025-06-25 08:31:03,498  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-68 (<lambda>) - 9340 - 2025-06-25 08:31:03,501  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-68 (<lambda>) - 9340 - 2025-06-25 08:31:03,502  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-72 (<lambda>) - 20196 - 2025-06-25 08:31:04,274  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-72 (<lambda>) - 20196 - 2025-06-25 08:31:04,274  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-70 (<lambda>) - 20332 - 2025-06-25 08:31:04,338  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-70 (<lambda>) - 20332 - 2025-06-25 08:31:04,340  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:04,413  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-74 (<lambda>) - 21240 - 2025-06-25 08:31:04,450  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-74 (<lambda>) - 21240 - 2025-06-25 08:31:04,454  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-12 (<lambda>) - 4480 - 2025-06-25 08:31:04,887  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-12 (<lambda>) - 4480 - 2025-06-25 08:31:04,887  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-12 (<lambda>) - 4480 - 2025-06-25 08:31:04,888  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-75 (<lambda>) - 21084 - 2025-06-25 08:31:05,232  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-75 (<lambda>) - 21084 - 2025-06-25 08:31:05,232  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:05,270  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+MainThread - 4104 - 2025-06-25 08:31:05,272  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-80 (sending_email) - 3796 - 2025-06-25 08:31:05,273  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-80 (sending_email) - 3796 - 2025-06-25 08:31:05,274  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-77 (<lambda>) - 6912 - 2025-06-25 08:31:05,281  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-77 (<lambda>) - 6912 - 2025-06-25 08:31:05,281  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-16 (<lambda>) - 21340 - 2025-06-25 08:31:05,734  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-16 (<lambda>) - 21340 - 2025-06-25 08:31:05,735  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-16 (<lambda>) - 21340 - 2025-06-25 08:31:05,736  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:06,103  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-79 (<lambda>) - 9284 - 2025-06-25 08:31:06,277  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-79 (<lambda>) - 9284 - 2025-06-25 08:31:06,279  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-17 (<lambda>) - 8000 - 2025-06-25 08:31:06,489  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-17 (<lambda>) - 8000 - 2025-06-25 08:31:06,489  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-17 (<lambda>) - 8000 - 2025-06-25 08:31:06,490  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:06,919  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-81 (<lambda>) - 10368 - 2025-06-25 08:31:07,013  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-81 (<lambda>) - 10368 - 2025-06-25 08:31:07,013  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-80 (sending_email) - 3796 - 2025-06-25 08:31:07,145  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-19 (<lambda>) - 1904 - 2025-06-25 08:31:07,409  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-19 (<lambda>) - 1904 - 2025-06-25 08:31:07,409  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-19 (<lambda>) - 1904 - 2025-06-25 08:31:07,410  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-20 (<lambda>) - 16092 - 2025-06-25 08:31:07,413  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-20 (<lambda>) - 16092 - 2025-06-25 08:31:07,414  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-20 (<lambda>) - 16092 - 2025-06-25 08:31:07,414  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-21 (<lambda>) - 3300 - 2025-06-25 08:31:08,152  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-21 (<lambda>) - 3300 - 2025-06-25 08:31:08,152  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-21 (<lambda>) - 3300 - 2025-06-25 08:31:08,153  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:08,514  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+Thread-86 (sending_email) - 1692 - 2025-06-25 08:31:08,518  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-86 (sending_email) - 1692 - 2025-06-25 08:31:08,518  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-25 (<lambda>) - 8916 - 2025-06-25 08:31:09,005  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-25 (<lambda>) - 8916 - 2025-06-25 08:31:09,006  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-25 (<lambda>) - 8916 - 2025-06-25 08:31:09,006  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-27 (<lambda>) - 17152 - 2025-06-25 08:31:09,068  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-27 (<lambda>) - 17152 - 2025-06-25 08:31:09,069  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-27 (<lambda>) - 17152 - 2025-06-25 08:31:09,070  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:09,376  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-28 (<lambda>) - 17616 - 2025-06-25 08:31:09,806  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-28 (<lambda>) - 17616 - 2025-06-25 08:31:09,807  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-28 (<lambda>) - 17616 - 2025-06-25 08:31:09,809  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:10,219  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-87 (<lambda>) - 5660 - 2025-06-25 08:31:10,297  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-87 (<lambda>) - 5660 - 2025-06-25 08:31:10,298  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-86 (sending_email) - 1692 - 2025-06-25 08:31:10,304  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-30 (<lambda>) - 14416 - 2025-06-25 08:31:10,708  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-30 (<lambda>) - 14416 - 2025-06-25 08:31:10,708  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-30 (<lambda>) - 14416 - 2025-06-25 08:31:10,709  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-90 (<lambda>) - 12964 - 2025-06-25 08:31:11,028  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-89 (<lambda>) - 2980 - 2025-06-25 08:31:11,076  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-89 (<lambda>) - 2980 - 2025-06-25 08:31:11,077  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-91 (<lambda>) - 7500 - 2025-06-25 08:31:11,186  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-91 (<lambda>) - 7500 - 2025-06-25 08:31:11,186  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-34 (<lambda>) - 17528 - 2025-06-25 08:31:11,571  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-34 (<lambda>) - 17528 - 2025-06-25 08:31:11,571  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-34 (<lambda>) - 17528 - 2025-06-25 08:31:11,572  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:11,884  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:11,884  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:11,885  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-98 (sending_email) - 8868 - 2025-06-25 08:31:11,887  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-98 (sending_email) - 8868 - 2025-06-25 08:31:11,887  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-94 (<lambda>) - 3528 - 2025-06-25 08:31:11,899  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-94 (<lambda>) - 3528 - 2025-06-25 08:31:11,928  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-36 (<lambda>) - 7688 - 2025-06-25 08:31:12,401  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-36 (<lambda>) - 7688 - 2025-06-25 08:31:12,402  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-36 (<lambda>) - 7688 - 2025-06-25 08:31:12,402  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:12,742  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-38 (<lambda>) - 5584 - 2025-06-25 08:31:13,341  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-38 (<lambda>) - 5584 - 2025-06-25 08:31:13,341  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-38 (<lambda>) - 5584 - 2025-06-25 08:31:13,342  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:13,592  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-97 (<lambda>) - 21076 - 2025-06-25 08:31:13,595  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-97 (<lambda>) - 21076 - 2025-06-25 08:31:13,598  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-97 (<lambda>) - 21076 - 2025-06-25 08:31:13,599  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-99 (<lambda>) - 20112 - 2025-06-25 08:31:13,734  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-98 (sending_email) - 8868 - 2025-06-25 08:31:13,737  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-41 (<lambda>) - 8260 - 2025-06-25 08:31:14,236  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-101 (<lambda>) - 11656 - 2025-06-25 08:31:14,391  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-101 (<lambda>) - 11656 - 2025-06-25 08:31:14,391  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:14,410  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-42 (<lambda>) - 3284 - 2025-06-25 08:31:15,038  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-42 (<lambda>) - 3284 - 2025-06-25 08:31:15,038  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-42 (<lambda>) - 3284 - 2025-06-25 08:31:15,040  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-43 (<lambda>) - 20400 - 2025-06-25 08:31:15,157  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-43 (<lambda>) - 20400 - 2025-06-25 08:31:15,158  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-43 (<lambda>) - 20400 - 2025-06-25 08:31:15,158  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:15,256  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:15,256  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+Thread-107 (sending_email) - 10940 - 2025-06-25 08:31:15,261  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-107 (sending_email) - 10940 - 2025-06-25 08:31:15,265  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-45 (<lambda>) - 7200 - 2025-06-25 08:31:15,847  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-45 (<lambda>) - 7200 - 2025-06-25 08:31:15,847  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-45 (<lambda>) - 7200 - 2025-06-25 08:31:15,849  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-46 (<lambda>) - 8580 - 2025-06-25 08:31:15,881  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-46 (<lambda>) - 8580 - 2025-06-25 08:31:15,881  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-46 (<lambda>) - 8580 - 2025-06-25 08:31:15,882  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:16,101  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-106 (<lambda>) - 10176 - 2025-06-25 08:31:16,237  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-106 (<lambda>) - 10176 - 2025-06-25 08:31:16,241  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-47 (<lambda>) - 10200 - 2025-06-25 08:31:16,644  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-47 (<lambda>) - 10200 - 2025-06-25 08:31:16,644  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-47 (<lambda>) - 10200 - 2025-06-25 08:31:16,644  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-48 (<lambda>) - 2476 - 2025-06-25 08:31:16,709  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-48 (<lambda>) - 2476 - 2025-06-25 08:31:16,709  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-48 (<lambda>) - 2476 - 2025-06-25 08:31:16,710  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-108 (<lambda>) - 4084 - 2025-06-25 08:31:16,907  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-107 (sending_email) - 10940 - 2025-06-25 08:31:17,085  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-109 (<lambda>) - 18596 - 2025-06-25 08:31:17,210  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-109 (<lambda>) - 18596 - 2025-06-25 08:31:17,210  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-64 (<lambda>) - 20240 - 2025-06-25 08:31:17,428  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-64 (<lambda>) - 20240 - 2025-06-25 08:31:17,428  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-64 (<lambda>) - 20240 - 2025-06-25 08:31:17,429  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-65 (<lambda>) - 13104 - 2025-06-25 08:31:17,608  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-65 (<lambda>) - 13104 - 2025-06-25 08:31:17,609  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-65 (<lambda>) - 13104 - 2025-06-25 08:31:17,609  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:17,900  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-110 (<lambda>) - 21540 - 2025-06-25 08:31:18,010  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-110 (<lambda>) - 21540 - 2025-06-25 08:31:18,011  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-67 (<lambda>) - 12368 - 2025-06-25 08:31:18,418  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-67 (<lambda>) - 12368 - 2025-06-25 08:31:18,419  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-67 (<lambda>) - 12368 - 2025-06-25 08:31:18,420  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-111 (<lambda>) - 16452 - 2025-06-25 08:31:18,640  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-112 (<lambda>) - 6668 - 2025-06-25 08:31:18,789  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-112 (<lambda>) - 6668 - 2025-06-25 08:31:18,790  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:18,815  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:18,816  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-115 (sending_email) - 18980 - 2025-06-25 08:31:18,820  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-115 (sending_email) - 18980 - 2025-06-25 08:31:18,821  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-71 (<lambda>) - 18252 - 2025-06-25 08:31:19,253  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-71 (<lambda>) - 18252 - 2025-06-25 08:31:19,253  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-71 (<lambda>) - 18252 - 2025-06-25 08:31:19,254  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-117 (<lambda>) - 10860 - 2025-06-25 08:31:20,476  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:20,477  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:20,478  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-119 (sending_email) - 9784 - 2025-06-25 08:31:20,482  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-119 (sending_email) - 9784 - 2025-06-25 08:31:20,482  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:20,487  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 2/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:20,487  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 3/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:20,488  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:20,489  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:20,489  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:20,490  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:20,490  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+MainThread - 4104 - 2025-06-25 08:31:20,492  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:20,492  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-120 (sending_email) - 12812 - 2025-06-25 08:31:20,493  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-121 (sending_email) - 1924 - 2025-06-25 08:31:20,494  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+MainThread - 4104 - 2025-06-25 08:31:20,495  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:20,495  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-120 (sending_email) - 12812 - 2025-06-25 08:31:20,496  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-122 (sending_email) - 9096 - 2025-06-25 08:31:20,496  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-121 (sending_email) - 1924 - 2025-06-25 08:31:20,497  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:20,498  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_1 - 9112 - 2025-06-25 08:31:20,498  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-123 (sending_email) - 8604 - 2025-06-25 08:31:20,500  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-122 (sending_email) - 9096 - 2025-06-25 08:31:20,500  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:20,502  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:20,502  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-124 (sending_email) - 4592 - 2025-06-25 08:31:20,503  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-123 (sending_email) - 8604 - 2025-06-25 08:31:20,503  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+MainThread - 4104 - 2025-06-25 08:31:20,505  - app - _async_disconnected - 154 - ERROR - [N/A] - Max retries (3) reached for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 7312 - 2025-06-25 08:31:20,505  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-124 (sending_email) - 4592 - 2025-06-25 08:31:20,506  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-125 (sending_email) - 18436 - 2025-06-25 08:31:20,506  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-126 (sending_email) - 16996 - 2025-06-25 08:31:20,509  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+asyncio_1 - 9112 - 2025-06-25 08:31:20,513  - app - send_email - 30 - INFO - [N/A] - Your account has been disconnected after 3 unsuccessful retry attempts.
+Thread-125 (sending_email) - 18436 - 2025-06-25 08:31:20,514  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-126 (sending_email) - 16996 - 2025-06-25 08:31:20,514  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-127 (sending_email) - 10148 - 2025-06-25 08:31:20,516  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been disconnected after 3 unsuccessful retry attempts.     mail_type disconnect
+Thread-127 (sending_email) - 10148 - 2025-06-25 08:31:20,516  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-115 (sending_email) - 18980 - 2025-06-25 08:31:20,726  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+MainThread - 4104 - 2025-06-25 08:31:22,162  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-119 (sending_email) - 9784 - 2025-06-25 08:31:22,221  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Connected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-122 (sending_email) - 9096 - 2025-06-25 08:31:22,261  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-128 (<lambda>) - 19408 - 2025-06-25 08:31:22,288  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-128 (<lambda>) - 19408 - 2025-06-25 08:31:22,288  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-127 (sending_email) - 10148 - 2025-06-25 08:31:22,295  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-124 (sending_email) - 4592 - 2025-06-25 08:31:22,310  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-121 (sending_email) - 1924 - 2025-06-25 08:31:22,315  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-123 (sending_email) - 8604 - 2025-06-25 08:31:22,336  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-125 (sending_email) - 18436 - 2025-06-25 08:31:22,340  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-120 (sending_email) - 12812 - 2025-06-25 08:31:22,380  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-126 (sending_email) - 16996 - 2025-06-25 08:31:22,383  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Disconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 53, in sending_email
+    html = disconnect(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 104, in disconnect
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b> """ + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-83 (<lambda>) - 512 - 2025-06-25 08:31:22,761  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-83 (<lambda>) - 512 - 2025-06-25 08:31:22,761  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-83 (<lambda>) - 512 - 2025-06-25 08:31:22,762  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-129 (<lambda>) - 15724 - 2025-06-25 08:31:22,996  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-129 (<lambda>) - 15724 - 2025-06-25 08:31:22,996  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:23,056  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-84 (<lambda>) - 10328 - 2025-06-25 08:31:23,517  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-84 (<lambda>) - 10328 - 2025-06-25 08:31:23,517  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-84 (<lambda>) - 10328 - 2025-06-25 08:31:23,518  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-85 (<lambda>) - 8584 - 2025-06-25 08:31:24,303  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-85 (<lambda>) - 8584 - 2025-06-25 08:31:24,303  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-85 (<lambda>) - 8584 - 2025-06-25 08:31:24,304  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-88 (<lambda>) - 1516 - 2025-06-25 08:31:25,098  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-88 (<lambda>) - 1516 - 2025-06-25 08:31:25,099  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-88 (<lambda>) - 1516 - 2025-06-25 08:31:25,099  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:25,455  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:25,455  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 2/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:25,456  - app - _async_disconnected - 147 - INFO - [N/A] - Retrying connection 3/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_2 - 18884 - 2025-06-25 08:31:25,456  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully reconnected to ProjectX.
+Thread-136 (sending_email) - 9776 - 2025-06-25 08:31:25,462  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully reconnected to ProjectX.     mail_type connected
+Thread-136 (sending_email) - 9776 - 2025-06-25 08:31:25,462  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-90 (<lambda>) - 12964 - 2025-06-25 08:31:26,026  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-90 (<lambda>) - 12964 - 2025-06-25 08:31:26,026  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-90 (<lambda>) - 12964 - 2025-06-25 08:31:26,027  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:26,315  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-93 (<lambda>) - 9516 - 2025-06-25 08:31:26,873  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-93 (<lambda>) - 9516 - 2025-06-25 08:31:26,873  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-93 (<lambda>) - 9516 - 2025-06-25 08:31:26,874  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-137 (<lambda>) - 3616 - 2025-06-25 08:31:27,166  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-137 (<lambda>) - 3616 - 2025-06-25 08:31:27,168  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:27,175  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-136 (sending_email) - 9776 - 2025-06-25 08:31:27,290  - app - sending_email - 66 - ERROR - [N/A] - error in sending  mail error msg [ can only concatenate str (not "list") to str ] ProjectX Account Reconnected to ['ermohitgupta.16@gmail.com']     Traceback (most recent call last):
+  File "D:\projectx-websocket\mail_utils.py", line 57, in sending_email
+    html = connected(receiver)
+  File "D:\projectx-websocket\mail_utils.py", line 73, in connected
+        return """
+               ~~~
+    ...<9 lines>...
+    
+    
+    <b>Dear </b>""" + msg_data + """<br><br>
+    ~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "list") to str
+
+Thread-96 (<lambda>) - 14820 - 2025-06-25 08:31:27,609  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-96 (<lambda>) - 14820 - 2025-06-25 08:31:27,610  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-96 (<lambda>) - 14820 - 2025-06-25 08:31:27,610  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-141 (<lambda>) - 4000 - 2025-06-25 08:31:28,018  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-141 (<lambda>) - 4000 - 2025-06-25 08:31:28,019  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 4104 - 2025-06-25 08:31:28,102  - app - on_reconnected - 89 - INFO - [N/A] - Reconnected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-143 (<lambda>) - 3096 - 2025-06-25 08:31:28,201  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-143 (<lambda>) - 3096 - 2025-06-25 08:31:28,208  - app - on_disconnected - 94 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 19924 - 2025-06-25 08:36:55,769  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 19924 - 2025-06-25 08:36:59,382  - app - connect - 233 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 512 - 2025-06-25 08:37:01,255  - app - on_connected - 84 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 3284 - 2025-06-25 08:37:01,257  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 20400 - 2025-06-25 08:37:01,259  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 20400 - 2025-06-25 08:37:01,259  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 20400 - 2025-06-25 08:37:03,166  - app - sending_email - 66 - INFO - [N/A] - sending mail
+asyncio_0 - 3284 - 2025-06-25 08:37:57,930  - app - send_email - 30 - INFO - [N/A] - Your account has been manually disconnected.
+Thread-4 (sending_email) - 8056 - 2025-06-25 08:37:57,931  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been manually disconnected.     mail_type disconnect
+Thread-4 (sending_email) - 8056 - 2025-06-25 08:37:57,933  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-4 (sending_email) - 8056 - 2025-06-25 08:38:00,182  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 15324 - 2025-06-25 08:38:17,215  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 15324 - 2025-06-25 08:54:07,099  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 21836 - 2025-06-25 08:54:09,651  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 15324 - 2025-06-25 08:54:09,658  - app - on_disconnected - 85 - INFO - [N/A] - Disconnected from account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 15324 - 2025-06-25 08:54:09,659  - app - subscribe_all - 162 - ERROR - [N/A] - Error subscribing for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): [WinError 10058] A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call
+asyncio_0 - 22448 - 2025-06-25 08:54:09,662  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+MainThread - 15324 - 2025-06-25 08:54:09,664  - app - _async_disconnected - 128 - INFO - [N/A] - Retrying connection 1/3 for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-2 (sending_email) - 6284 - 2025-06-25 08:54:09,665  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-2 (sending_email) - 6284 - 2025-06-25 08:54:09,667  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (sending_email) - 6284 - 2025-06-25 08:54:12,023  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-3 (<lambda>) - 16336 - 2025-06-25 08:54:16,598  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 15324 - 2025-06-25 08:54:16,603  - app - subscribe_all - 162 - ERROR - [N/A] - Error subscribing for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): Hub is not running you cand send messages
+asyncio_0 - 22448 - 2025-06-25 08:54:16,604  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 19368 - 2025-06-25 08:54:16,605  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 19368 - 2025-06-25 08:54:16,606  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-4 (sending_email) - 19368 - 2025-06-25 08:54:18,449  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 7384 - 2025-06-25 09:00:03,990  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 7384 - 2025-06-25 09:01:15,676  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 8176 - 2025-06-25 09:01:17,779  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 13016 - 2025-06-25 09:01:17,781  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-2 (sending_email) - 14304 - 2025-06-25 09:01:17,782  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-2 (sending_email) - 14304 - 2025-06-25 09:01:17,783  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (sending_email) - 14304 - 2025-06-25 09:01:19,568  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 10704 - 2025-06-25 09:03:49,734  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 10704 - 2025-06-25 09:03:53,274  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:03:55,276  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 21632 - 2025-06-25 09:03:55,288  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-2 (sending_email) - 19284 - 2025-06-25 09:03:55,289  - app - sending_email - 37 - INFO - [N/A] - sending mail mohit.g1695@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-2 (sending_email) - 19284 - 2025-06-25 09:03:55,291  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (sending_email) - 19284 - 2025-06-25 09:03:57,045  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,445  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281922055, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:34:47.376687+00:00', 'updateTimestamp': '2025-06-25T03:34:47.376687+00:00', 'status': 6, 'type': 2, 'side': 1, 'size': 2, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,469  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1065967472, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:34:47.3816714+00:00', 'price': 22419.5, 'profitAndLoss': 4.5, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1281922055}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,493  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1065967473, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:34:47.3817116+00:00', 'price': 22419.5, 'profitAndLoss': -0.5, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1281922055}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,517  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1065963121, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:31:06.573907+00:00', 'price': 22419.75, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1281917829}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,534  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1065958118, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:24:43.920442+00:00', 'price': 22417.25, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1281911389}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,601  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281922055, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:34:47.376687+00:00', 'updateTimestamp': '2025-06-25T03:34:47.376687+00:00', 'status': 2, 'type': 2, 'side': 1, 'size': 2, 'fillVolume': 2}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,613  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281911400, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:24:44.902475+00:00', 'updateTimestamp': '2025-06-25T03:34:47.3894448+00:00', 'status': 3, 'type': 4, 'side': 1, 'size': 2, 'stopPrice': 22368.5, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,614  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281911401, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:24:44.902475+00:00', 'updateTimestamp': '2025-06-25T03:34:47.3894501+00:00', 'status': 3, 'type': 1, 'side': 1, 'size': 2, 'limitPrice': 22468.5, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,615  - app - on_position_update - 73 - INFO - [N/A] - Position update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 2, 'data': {'id': 288980490, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:24:43.927787+00:00', 'type': 0, 'size': 0, 'averagePrice': 22418.5}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:47,617  - app - on_account_update - 65 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151848.72, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:04:49,811  - app - on_account_update - 65 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151848.72, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:40,383  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281923362, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:40.3154378+00:00', 'updateTimestamp': '2025-06-25T03:35:40.3154378+00:00', 'status': 6, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:40,393  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281923362, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:40.3154378+00:00', 'updateTimestamp': '2025-06-25T03:35:40.3154378+00:00', 'status': 2, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 1}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:40,395  - app - on_trade_update - 77 - INFO - [N/A] - Trade update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1065968723, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:40.3243538+00:00', 'price': 22418.0, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1281923362}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:40,402  - app - on_position_update - 73 - INFO - [N/A] - Position update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 288982956, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:40.3312113+00:00', 'type': 1, 'size': 1, 'averagePrice': 22418.0}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:40,410  - app - on_account_update - 65 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151848.35, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:41,187  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281923381, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:41.1151336+00:00', 'updateTimestamp': '2025-06-25T03:35:41.1151336+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 1, 'stopPrice': 22368.0, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:41,188  - app - on_order_update - 69 - INFO - [N/A] - Order update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'id': 1281923382, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:41.1151336+00:00', 'updateTimestamp': '2025-06-25T03:35:41.1151336+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 1, 'limitPrice': 22468.0, 'fillVolume': 0}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:41,191  - app - on_position_update - 73 - INFO - [N/A] - Position update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 288982956, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-25T03:35:40.331211+00:00', 'type': 1, 'size': 1, 'averagePrice': 22418.0}}
+Thread-1 (<lambda>) - 2972 - 2025-06-25 09:05:41,599  - app - on_account_update - 65 - INFO - [N/A] - Account update for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151848.35, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+MainThread - 15296 - 2025-06-25 09:55:28,855  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 14816 - 2025-06-25 11:20:14,246  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 17044 - 2025-06-25 11:20:47,697  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 16120 - 2025-06-25 20:45:21,039  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 6880 - 2025-06-26 06:50:32,349  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 6880 - 2025-06-26 07:01:47,254  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1
+Thread-1 (<lambda>) - 15856 - 2025-06-26 07:01:49,126  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1)
+asyncio_0 - 11064 - 2025-06-26 07:01:49,128  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-2 (sending_email) - 9956 - 2025-06-26 07:01:49,128  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-2 (sending_email) - 9956 - 2025-06-26 07:01:49,129  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (sending_email) - 9956 - 2025-06-26 07:01:50,888  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 9452 - 2025-06-26 07:06:45,975  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 9452 - 2025-06-26 07:07:30,873  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617475
+MainThread - 9452 - 2025-06-26 07:07:32,143  - app - connect - 227 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617480
+Thread-1 (<lambda>) - 17476 - 2025-06-26 07:07:32,804  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475)
+MainThread - 9452 - 2025-06-26 07:07:32,929  - app - subscribe_all - 162 - ERROR - [N/A] - Error subscribing for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): Hub is not running you cand send messages
+asyncio_0 - 8228 - 2025-06-26 07:07:32,930  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 4108 - 2025-06-26 07:07:32,931  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 4108 - 2025-06-26 07:07:32,932  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (<lambda>) - 8772 - 2025-06-26 07:07:33,977  - app - on_connected - 81 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480)
+asyncio_0 - 8228 - 2025-06-26 07:07:33,978  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 3176 - 2025-06-26 07:07:33,979  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 3176 - 2025-06-26 07:07:33,979  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 4108 - 2025-06-26 07:07:34,755  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-4 (sending_email) - 3176 - 2025-06-26 07:07:35,755  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 7500 - 2025-06-26 08:29:36,428  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 16616 - 2025-06-26 08:35:56,377  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 11952 - 2025-06-26 08:37:16,770  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 4008 - 2025-06-26 08:39:39,053  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 15624 - 2025-06-26 08:41:18,154  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 15624 - 2025-06-26 08:41:18,547  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617475
+MainThread - 15624 - 2025-06-26 08:41:18,552  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617480
+Thread-1 (<lambda>) - 14828 - 2025-06-26 08:41:20,467  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475)
+asyncio_0 - 13764 - 2025-06-26 08:41:20,470  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 20132 - 2025-06-26 08:41:20,471  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 20132 - 2025-06-26 08:41:20,471  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:41:21,600  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480)
+asyncio_0 - 13764 - 2025-06-26 08:41:21,604  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 7588 - 2025-06-26 08:41:21,606  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 7588 - 2025-06-26 08:41:21,608  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 20132 - 2025-06-26 08:41:22,539  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-4 (sending_email) - 7588 - 2025-06-26 08:41:23,466  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:40,747  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930466, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.6752393+00:00', 'updateTimestamp': '2025-06-26T03:13:40.6752393+00:00', 'status': 6, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 0}
+Thread-1 (<lambda>) - 14828 - 2025-06-26 08:43:40,766  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.93, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:40,767  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070503849, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.6840245+00:00', 'price': 22484.25, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286930466}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:40,768  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930466, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.6752393+00:00', 'updateTimestamp': '2025-06-26T03:13:40.6752393+00:00', 'status': 2, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 1}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:40,770  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.6912412+00:00', 'type': 1, 'size': 1, 'averagePrice': 22484.25}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:40,774  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.93, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 14828 - 2025-06-26 08:43:41,549  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.93, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:41,564  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.93, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:44,365  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.2920031+00:00', 'updateTimestamp': '2025-06-26T03:13:44.2920031+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 1, 'stopPrice': 22434.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:44,366  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.2920031+00:00', 'updateTimestamp': '2025-06-26T03:13:44.2920031+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 1, 'limitPrice': 22534.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 08:43:44,368  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 1, 'averagePrice': 22484.25}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,069  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286976958, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:45:58.0221865+00:00', 'updateTimestamp': '2025-06-26T03:45:58.0221865+00:00', 'status': 6, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 0}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,080  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070547286, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:45:58.0309368+00:00', 'price': 22497.75, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286976958}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,081  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286976958, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:45:58.0221865+00:00', 'updateTimestamp': '2025-06-26T03:45:58.0221865+00:00', 'status': 2, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 1}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,088  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:45:58.0395288+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 2, 'stopPrice': 22434.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,091  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:45:58.0459517+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 2, 'limitPrice': 22534.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,094  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 2, 'averagePrice': 22491.0}}
+Thread-1 (<lambda>) - 14828 - 2025-06-26 09:15:58,100  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.56, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,101  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.56, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 14828 - 2025-06-26 09:15:58,540  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.56, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 10616 - 2025-06-26 09:15:58,540  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.56, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+MainThread - 17032 - 2025-06-26 09:23:08,413  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 17032 - 2025-06-26 09:23:09,643  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617475
+MainThread - 17032 - 2025-06-26 09:23:09,646  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617480
+Thread-6 (<lambda>) - 19332 - 2025-06-26 09:23:11,613  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475)
+asyncio_0 - 6760 - 2025-06-26 09:23:11,617  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-8 (sending_email) - 15708 - 2025-06-26 09:23:11,618  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-8 (sending_email) - 15708 - 2025-06-26 09:23:11,618  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:12,597  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480)
+asyncio_0 - 6760 - 2025-06-26 09:23:12,603  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-9 (sending_email) - 21152 - 2025-06-26 09:23:12,606  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-9 (sending_email) - 21152 - 2025-06-26 09:23:12,607  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-8 (sending_email) - 15708 - 2025-06-26 09:23:13,498  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-9 (sending_email) - 21152 - 2025-06-26 09:23:14,378  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,046  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286988176, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:53:49.0000971+00:00', 'updateTimestamp': '2025-06-26T03:53:49.0000971+00:00', 'status': 6, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 0}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,056  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070557107, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:53:49.0088475+00:00', 'price': 22494.25, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286988176}}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,058  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286988176, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:53:49.0000971+00:00', 'updateTimestamp': '2025-06-26T03:53:49.0000971+00:00', 'status': 2, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 1}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,064  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:53:49.0177284+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 3, 'stopPrice': 22434.25, 'fillVolume': 0}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,068  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:53:49.0233729+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 3, 'limitPrice': 22534.25, 'fillVolume': 0}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,071  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 3, 'averagePrice': 22492.083333333332}}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:49,077  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.19, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-6 (<lambda>) - 19332 - 2025-06-26 09:23:49,091  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.19, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-6 (<lambda>) - 19332 - 2025-06-26 09:23:50,091  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.19, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:50,093  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151963.19, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:52,928  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:53:52.8692931+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 3, 'stopPrice': 22442.0, 'fillVolume': 0}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:52,929  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:53:52.8755139+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 3, 'limitPrice': 22542.0, 'fillVolume': 0}
+Thread-7 (<lambda>) - 20112 - 2025-06-26 09:23:52,931  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 3, 'averagePrice': 22492.083333333}}
+MainThread - 1944 - 2025-06-26 09:26:10,439  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 1944 - 2025-06-26 09:26:10,596  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617475
+MainThread - 1944 - 2025-06-26 09:26:10,598  - app - start_websocket_for_all - 309 - INFO - [N/A] - Started connection for unique_code i63da6634be20a97339a6a_PROJECTX1_8617480
+Thread-1 (<lambda>) - 11308 - 2025-06-26 09:26:12,591  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475)
+asyncio_0 - 18168 - 2025-06-26 09:26:12,593  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 6152 - 2025-06-26 09:26:12,594  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 6152 - 2025-06-26 09:26:12,594  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:13,337  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480)
+asyncio_0 - 18168 - 2025-06-26 09:26:13,339  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 16188 - 2025-06-26 09:26:13,339  - app - sending_email - 37 - INFO - [N/A] - sending mail sibeh72215@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 16188 - 2025-06-26 09:26:13,340  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 6152 - 2025-06-26 09:26:14,409  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-4 (sending_email) - 16188 - 2025-06-26 09:26:15,223  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,474  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286990732, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:56:44.4283568+00:00', 'updateTimestamp': '2025-06-26T03:56:44.4283568+00:00', 'status': 6, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,485  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286990732, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:56:44.4283568+00:00', 'updateTimestamp': '2025-06-26T03:56:44.4283568+00:00', 'status': 2, 'type': 2, 'side': 0, 'size': 1, 'fillVolume': 1}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,487  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070558952, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:56:44.4374105+00:00', 'price': 22496.5, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286990732}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,493  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:56:44.4460313+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 4, 'stopPrice': 22442.0, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,497  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:56:44.4525967+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 4, 'limitPrice': 22542.0, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,500  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 4, 'averagePrice': 22493.1875}}
+Thread-1 (<lambda>) - 11308 - 2025-06-26 09:26:44,507  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151962.82, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:44,508  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151962.82, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 11308 - 2025-06-26 09:26:45,547  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151962.82, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:45,549  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151962.82, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:46,886  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:56:46.8402812+00:00', 'status': 1, 'type': 4, 'side': 1, 'size': 4, 'stopPrice': 22443.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:46,892  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T03:56:46.8467514+00:00', 'status': 1, 'type': 1, 'side': 1, 'size': 4, 'limitPrice': 22543.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:26:46,895  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 1, 'size': 4, 'averagePrice': 22493.1875}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,427  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286994283, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3831874+00:00', 'updateTimestamp': '2025-06-26T04:01:01.3831874+00:00', 'status': 6, 'type': 2, 'side': 1, 'size': 4, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,436  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070561654, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3880688+00:00', 'price': 22494.75, 'profitAndLoss': -6.0, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1286994283}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,437  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070561653, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3880303+00:00', 'price': 22494.75, 'profitAndLoss': 21.0, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1286994283}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,438  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070561655, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3880778+00:00', 'price': 22494.75, 'profitAndLoss': 1.0, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1286994283}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,439  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1070503849, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.684024+00:00', 'price': 22484.25, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286930466}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,439  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1070557107, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:53:49.008847+00:00', 'price': 22494.25, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286988176}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,440  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1070558952, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:56:44.43741+00:00', 'price': 22496.5, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286990732}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,441  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 0, 'data': {'id': 1070561656, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3880836+00:00', 'price': 22494.75, 'profitAndLoss': -3.5, 'fees': 0.37, 'side': 1, 'size': 1, 'voided': False, 'orderId': 1286994283}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,441  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286994283, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T04:01:01.3831874+00:00', 'updateTimestamp': '2025-06-26T04:01:01.3831874+00:00', 'status': 2, 'type': 2, 'side': 1, 'size': 4, 'fillVolume': 4}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,442  - app - on_trade_update - 81 - INFO - [N/A] - Trade update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 1070547286, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:45:58.030936+00:00', 'price': 22497.75, 'fees': 0.37, 'side': 0, 'size': 1, 'voided': False, 'orderId': 1286976958}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,442  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930577, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T04:01:01.3954267+00:00', 'status': 3, 'type': 4, 'side': 1, 'size': 4, 'stopPrice': 22443.25, 'fillVolume': 0}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,443  - app - on_order_update - 73 - INFO - [N/A] - Order update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'id': 1286930578, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:44.292003+00:00', 'updateTimestamp': '2025-06-26T04:01:01.3954423+00:00', 'status': 3, 'type': 1, 'side': 1, 'size': 4, 'limitPrice': 22543.25, 'fillVolume': 0}
+Thread-1 (<lambda>) - 11308 - 2025-06-26 09:31:01,448  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151973.84, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,454  - app - on_position_update - 77 - INFO - [N/A] - Position update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 2, 'data': {'id': 290140905, 'accountId': 8617480, 'contractId': 'CON.F.US.MNQ.U25', 'creationTimestamp': '2025-06-26T03:13:40.691241+00:00', 'type': 0, 'size': 0, 'averagePrice': 22493.1875}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:01,455  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151973.84, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-1 (<lambda>) - 11308 - 2025-06-26 09:31:04,170  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617475 (code: i63da6634be20a97339a6a_PROJECTX1_8617475): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151973.84, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+Thread-2 (<lambda>) - 13784 - 2025-06-26 09:31:04,172  - app - on_account_update - 69 - INFO - [N/A] - Account update for account 8617480 (code: i63da6634be20a97339a6a_PROJECTX1_8617480): {'action': 1, 'data': {'id': 8617480, 'name': 'PRACTICEJUN1114571299', 'balance': 151973.84, 'canTrade': True, 'isVisible': True, 'simulated': True}}
+MainThread - 8780 - 2025-07-09 22:47:01,466  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 8780 - 2025-07-09 22:47:02,983  - app - start_websocket_for_all - 290 - WARNING - [N/A] - Skipping connection 256 due to missing connection_datetime
+MainThread - 8780 - 2025-07-09 22:47:03,003  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Y458f36d70287a37def799_PROJECTX1_9023476
+MainThread - 8780 - 2025-07-09 22:47:03,007  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Y458f36d70287a37def799_PROJECTX1_9023552
+MainThread - 8780 - 2025-07-09 22:47:03,007  - app - start_websocket_for_all - 290 - WARNING - [N/A] - Skipping connection 327 due to missing connection_datetime
+MainThread - 8780 - 2025-07-09 22:47:03,010  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code zT201a8f8c5b20d6ab64c6_PROJECTX1_8536307
+MainThread - 8780 - 2025-07-09 22:47:03,014  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code zT201a8f8c5b20d6ab64c6_PROJECTX1_9119824
+MainThread - 8780 - 2025-07-09 22:47:03,017  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code qFffbc6963f22eea20efb1_PROJECTX1_8617475
+MainThread - 8780 - 2025-07-09 22:47:03,020  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code qFffbc6963f22eea20efb1_PROJECTX1_8617480
+MainThread - 8780 - 2025-07-09 22:47:03,024  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_8457140
+MainThread - 8780 - 2025-07-09 22:47:03,028  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_8504196
+MainThread - 8780 - 2025-07-09 22:47:03,031  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_8671383
+MainThread - 8780 - 2025-07-09 22:47:03,034  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_9018125
+MainThread - 8780 - 2025-07-09 22:47:03,038  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_9283109
+MainThread - 8780 - 2025-07-09 22:47:03,041  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_9306326
+MainThread - 8780 - 2025-07-09 22:47:03,045  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_9340829
+MainThread - 8780 - 2025-07-09 22:47:03,048  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Dleafa50c7ea1bb0a69ca9_PROJECTX1_9341501
+MainThread - 8780 - 2025-07-09 22:47:03,052  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_8953201
+MainThread - 8780 - 2025-07-09 22:47:03,055  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174846
+MainThread - 8780 - 2025-07-09 22:47:03,058  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174859
+MainThread - 8780 - 2025-07-09 22:47:03,062  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174874
+MainThread - 8780 - 2025-07-09 22:47:03,065  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174886
+MainThread - 8780 - 2025-07-09 22:47:03,068  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9427001
+MainThread - 8780 - 2025-07-09 22:47:03,072  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617475
+MainThread - 8780 - 2025-07-09 22:47:03,075  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+MainThread - 8780 - 2025-07-09 22:47:03,085  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code rA038468786174a34b73a3_PROJECTX1_9309490
+MainThread - 8780 - 2025-07-09 22:47:03,085  - app - start_websocket_for_all - 290 - WARNING - [N/A] - Skipping connection 284 due to missing connection_datetime
+MainThread - 8780 - 2025-07-09 22:47:03,088  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code aoaef69850965c6344ce29_PROJECTX1_8617475
+MainThread - 8780 - 2025-07-09 22:47:03,092  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code aoaef69850965c6344ce29_PROJECTX1_8617480
+MainThread - 8780 - 2025-07-09 22:47:03,095  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code ZG632c3c0ec0e77ec79001_PROJECTX1_9178144
+MainThread - 8780 - 2025-07-09 22:47:03,096  - app - start_websocket_for_all - 290 - WARNING - [N/A] - Skipping connection 320 due to missing connection_datetime
+MainThread - 8780 - 2025-07-09 22:47:03,099  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code 8wf2a2ecdd63c8968a388a_PROJECTX1_6965562
+MainThread - 8780 - 2025-07-09 22:47:03,103  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code zOcc189d729cf0dcfd0e2b_PROJECTX1_8871806
+MainThread - 8780 - 2025-07-09 22:47:03,106  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code zOcc189d729cf0dcfd0e2b_PROJECTX1_9094742
+MainThread - 8780 - 2025-07-09 22:47:03,109  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code R415047063f6cb4dabf8e7_PROJECTX1_9228810
+Thread-1 (<lambda>) - 14852 - 2025-07-09 22:47:05,166  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9023476 (code: Y458f36d70287a37def799_PROJECTX1_9023476)
+Thread-2 (<lambda>) - 17544 - 2025-07-09 22:47:06,042  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9023552 (code: Y458f36d70287a37def799_PROJECTX1_9023552)
+Thread-3 (<lambda>) - 16288 - 2025-07-09 22:47:06,731  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8536307 (code: zT201a8f8c5b20d6ab64c6_PROJECTX1_8536307)
+Thread-4 (<lambda>) - 17740 - 2025-07-09 22:47:07,519  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9119824 (code: zT201a8f8c5b20d6ab64c6_PROJECTX1_9119824)
+Thread-5 (<lambda>) - 17900 - 2025-07-09 22:47:08,449  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: qFffbc6963f22eea20efb1_PROJECTX1_8617475)
+Thread-6 (<lambda>) - 14668 - 2025-07-09 22:47:09,346  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: qFffbc6963f22eea20efb1_PROJECTX1_8617480)
+Thread-7 (<lambda>) - 16060 - 2025-07-09 22:47:10,217  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8457140 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_8457140)
+Thread-8 (<lambda>) - 13704 - 2025-07-09 22:47:11,043  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8504196 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_8504196)
+Thread-9 (<lambda>) - 14360 - 2025-07-09 22:47:11,947  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8671383 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_8671383)
+Thread-10 (<lambda>) - 14060 - 2025-07-09 22:47:12,782  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9018125 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_9018125)
+Thread-11 (<lambda>) - 13092 - 2025-07-09 22:47:13,659  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9283109 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_9283109)
+Thread-12 (<lambda>) - 18160 - 2025-07-09 22:47:14,456  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9306326 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_9306326)
+Thread-13 (<lambda>) - 2716 - 2025-07-09 22:47:15,312  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9340829 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_9340829)
+Thread-14 (<lambda>) - 15724 - 2025-07-09 22:47:16,111  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9341501 (code: Dleafa50c7ea1bb0a69ca9_PROJECTX1_9341501)
+Thread-15 (<lambda>) - 2224 - 2025-07-09 22:47:17,142  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8953201 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_8953201)
+Thread-16 (<lambda>) - 7804 - 2025-07-09 22:47:17,892  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9174846 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174846)
+Thread-17 (<lambda>) - 10204 - 2025-07-09 22:47:18,747  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9174859 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174859)
+Thread-18 (<lambda>) - 10320 - 2025-07-09 22:47:19,630  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9174874 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174874)
+Thread-19 (<lambda>) - 18380 - 2025-07-09 22:47:20,411  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9174886 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9174886)
+Thread-20 (<lambda>) - 17584 - 2025-07-09 22:47:21,367  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9427001 (code: Ta6ebf6def6d5ff7e20b6e_PROJECTX1_9427001)
+Thread-21 (<lambda>) - 15324 - 2025-07-09 22:47:22,239  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: z0481238fc9a8534dd5943_PROJECTX1_8617475)
+Thread-22 (<lambda>) - 16952 - 2025-07-09 22:47:23,027  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+Thread-23 (<lambda>) - 9644 - 2025-07-09 22:47:23,934  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9309490 (code: rA038468786174a34b73a3_PROJECTX1_9309490)
+Thread-24 (<lambda>) - 16240 - 2025-07-09 22:47:24,721  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: aoaef69850965c6344ce29_PROJECTX1_8617475)
+Thread-25 (<lambda>) - 1132 - 2025-07-09 22:47:25,583  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: aoaef69850965c6344ce29_PROJECTX1_8617480)
+Thread-26 (<lambda>) - 15564 - 2025-07-09 22:47:26,454  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9178144 (code: ZG632c3c0ec0e77ec79001_PROJECTX1_9178144)
+Thread-27 (<lambda>) - 9692 - 2025-07-09 22:47:27,238  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 6965562 (code: 8wf2a2ecdd63c8968a388a_PROJECTX1_6965562)
+Thread-28 (<lambda>) - 18356 - 2025-07-09 22:47:28,173  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8871806 (code: zOcc189d729cf0dcfd0e2b_PROJECTX1_8871806)
+asyncio_0 - 12028 - 2025-07-09 22:47:28,834  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-31 (sending_email) - 15264 - 2025-07-09 22:47:28,836  - app - sending_email - 37 - INFO - [N/A] - sending mail tradertest304@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-31 (sending_email) - 15264 - 2025-07-09 22:47:28,839  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:28,840  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-32 (sending_email) - 13728 - 2025-07-09 22:47:28,844  - app - sending_email - 37 - INFO - [N/A] - sending mail tradertest304@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-32 (sending_email) - 13728 - 2025-07-09 22:47:28,845  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_1 - 18132 - 2025-07-09 22:47:28,848  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+asyncio_0 - 12028 - 2025-07-09 22:47:28,862  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-33 (sending_email) - 15144 - 2025-07-09 22:47:28,869  - app - sending_email - 37 - INFO - [N/A] - sending mail amin.nameny@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-34 (sending_email) - 17972 - 2025-07-09 22:47:28,902  - app - sending_email - 37 - INFO - [N/A] - sending mail amin.nameny@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-33 (sending_email) - 15144 - 2025-07-09 22:47:28,902  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_1 - 18132 - 2025-07-09 22:47:28,917  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-34 (sending_email) - 17972 - 2025-07-09 22:47:28,931  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:28,934  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-35 (sending_email) - 17456 - 2025-07-09 22:47:28,935  - app - sending_email - 37 - INFO - [N/A] - sending mail toteter781@ptiong.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-36 (sending_email) - 16920 - 2025-07-09 22:47:28,937  - app - sending_email - 37 - INFO - [N/A] - sending mail toteter781@ptiong.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-35 (sending_email) - 17456 - 2025-07-09 22:47:28,938  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_1 - 18132 - 2025-07-09 22:47:28,938  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-36 (sending_email) - 16920 - 2025-07-09 22:47:28,939  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:28,940  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-37 (sending_email) - 17948 - 2025-07-09 22:47:28,942  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_1 - 18132 - 2025-07-09 22:47:28,944  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-38 (sending_email) - 7136 - 2025-07-09 22:47:28,945  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-37 (sending_email) - 17948 - 2025-07-09 22:47:28,946  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-39 (sending_email) - 8212 - 2025-07-09 22:47:28,948  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_2 - 16908 - 2025-07-09 22:47:28,950  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-38 (sending_email) - 7136 - 2025-07-09 22:47:28,951  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:28,952  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-39 (sending_email) - 8212 - 2025-07-09 22:47:28,953  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-40 (sending_email) - 17912 - 2025-07-09 22:47:28,955  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_1 - 18132 - 2025-07-09 22:47:28,956  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-41 (sending_email) - 5700 - 2025-07-09 22:47:28,957  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-40 (sending_email) - 17912 - 2025-07-09 22:47:28,959  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 16908 - 2025-07-09 22:47:28,960  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-41 (sending_email) - 5700 - 2025-07-09 22:47:28,961  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-42 (sending_email) - 17500 - 2025-07-09 22:47:28,962  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_0 - 12028 - 2025-07-09 22:47:28,963  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-43 (sending_email) - 2892 - 2025-07-09 22:47:28,965  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_1 - 18132 - 2025-07-09 22:47:28,967  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-42 (sending_email) - 17500 - 2025-07-09 22:47:28,967  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-44 (sending_email) - 2560 - 2025-07-09 22:47:28,969  - app - sending_email - 37 - INFO - [N/A] - sending mail gazelle918@yahoo.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-43 (sending_email) - 2892 - 2025-07-09 22:47:28,969  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-45 (sending_email) - 7184 - 2025-07-09 22:47:28,971  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_2 - 16908 - 2025-07-09 22:47:28,972  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-44 (sending_email) - 2560 - 2025-07-09 22:47:28,973  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:28,975  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-45 (sending_email) - 7184 - 2025-07-09 22:47:28,976  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-46 (sending_email) - 18216 - 2025-07-09 22:47:28,977  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_1 - 18132 - 2025-07-09 22:47:28,978  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-47 (sending_email) - 17932 - 2025-07-09 22:47:28,981  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-46 (sending_email) - 18216 - 2025-07-09 22:47:28,982  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 16908 - 2025-07-09 22:47:28,983  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-47 (sending_email) - 17932 - 2025-07-09 22:47:28,985  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-48 (sending_email) - 13300 - 2025-07-09 22:47:28,985  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_0 - 12028 - 2025-07-09 22:47:28,986  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+asyncio_1 - 18132 - 2025-07-09 22:47:28,988  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-49 (sending_email) - 14664 - 2025-07-09 22:47:28,989  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-48 (sending_email) - 13300 - 2025-07-09 22:47:28,990  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-50 (sending_email) - 3368 - 2025-07-09 22:47:28,993  - app - sending_email - 37 - INFO - [N/A] - sending mail defisuperuser@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-51 (sending_email) - 5104 - 2025-07-09 22:47:28,993  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_3 - 15452 - 2025-07-09 22:47:28,994  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-49 (sending_email) - 14664 - 2025-07-09 22:47:28,995  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 16908 - 2025-07-09 22:47:28,997  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-50 (sending_email) - 3368 - 2025-07-09 22:47:28,998  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-51 (sending_email) - 5104 - 2025-07-09 22:47:28,999  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:29,000  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-52 (sending_email) - 12852 - 2025-07-09 22:47:29,000  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-53 (sending_email) - 15756 - 2025-07-09 22:47:29,002  - app - sending_email - 37 - INFO - [N/A] - sending mail jbullardtrading@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+asyncio_1 - 18132 - 2025-07-09 22:47:29,003  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+asyncio_3 - 15452 - 2025-07-09 22:47:29,005  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-54 (sending_email) - 15612 - 2025-07-09 22:47:29,005  - app - sending_email - 37 - INFO - [N/A] - sending mail xesore6812@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-52 (sending_email) - 12852 - 2025-07-09 22:47:29,005  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-53 (sending_email) - 15756 - 2025-07-09 22:47:29,006  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_2 - 16908 - 2025-07-09 22:47:29,007  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-55 (sending_email) - 18220 - 2025-07-09 22:47:29,007  - app - sending_email - 37 - INFO - [N/A] - sending mail xesore6812@kimdyn.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-56 (sending_email) - 15232 - 2025-07-09 22:47:29,008  - app - sending_email - 37 - INFO - [N/A] - sending mail gregdaytrades@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-54 (sending_email) - 15612 - 2025-07-09 22:47:29,009  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+asyncio_0 - 12028 - 2025-07-09 22:47:29,009  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-57 (sending_email) - 9044 - 2025-07-09 22:47:29,011  - app - sending_email - 37 - INFO - [N/A] - sending mail rashad.shad@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-55 (sending_email) - 18220 - 2025-07-09 22:47:29,013  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-56 (sending_email) - 15232 - 2025-07-09 22:47:29,013  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-57 (sending_email) - 9044 - 2025-07-09 22:47:29,014  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-58 (sending_email) - 2904 - 2025-07-09 22:47:29,014  - app - sending_email - 37 - INFO - [N/A] - sending mail ruben@webpaper.be    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-58 (sending_email) - 2904 - 2025-07-09 22:47:29,015  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-29 (<lambda>) - 8076 - 2025-07-09 22:47:29,034  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9094742 (code: zOcc189d729cf0dcfd0e2b_PROJECTX1_9094742)
+asyncio_1 - 18132 - 2025-07-09 22:47:29,036  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-59 (sending_email) - 2824 - 2025-07-09 22:47:29,036  - app - sending_email - 37 - INFO - [N/A] - sending mail ruben@webpaper.be    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-59 (sending_email) - 2824 - 2025-07-09 22:47:29,037  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-30 (<lambda>) - 16804 - 2025-07-09 22:47:29,863  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 9228810 (code: R415047063f6cb4dabf8e7_PROJECTX1_9228810)
+asyncio_3 - 15452 - 2025-07-09 22:47:29,866  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-60 (sending_email) - 13484 - 2025-07-09 22:47:29,867  - app - sending_email - 37 - INFO - [N/A] - sending mail icarrington413@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-60 (sending_email) - 13484 - 2025-07-09 22:47:29,867  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-45 (sending_email) - 7184 - 2025-07-09 22:47:30,576  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-34 (sending_email) - 17972 - 2025-07-09 22:47:30,586  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-43 (sending_email) - 2892 - 2025-07-09 22:47:30,601  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-41 (sending_email) - 5700 - 2025-07-09 22:47:30,621  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-33 (sending_email) - 15144 - 2025-07-09 22:47:30,628  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-52 (sending_email) - 12852 - 2025-07-09 22:47:30,634  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-32 (sending_email) - 13728 - 2025-07-09 22:47:30,637  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-54 (sending_email) - 15612 - 2025-07-09 22:47:30,641  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-42 (sending_email) - 17500 - 2025-07-09 22:47:30,646  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-50 (sending_email) - 3368 - 2025-07-09 22:47:30,649  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-35 (sending_email) - 17456 - 2025-07-09 22:47:30,650  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-38 (sending_email) - 7136 - 2025-07-09 22:47:30,653  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-59 (sending_email) - 2824 - 2025-07-09 22:47:30,659  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-48 (sending_email) - 13300 - 2025-07-09 22:47:30,667  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-58 (sending_email) - 2904 - 2025-07-09 22:47:30,668  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-47 (sending_email) - 17932 - 2025-07-09 22:47:30,672  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-31 (sending_email) - 15264 - 2025-07-09 22:47:30,678  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-44 (sending_email) - 2560 - 2025-07-09 22:47:30,691  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-46 (sending_email) - 18216 - 2025-07-09 22:47:30,692  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-37 (sending_email) - 17948 - 2025-07-09 22:47:30,701  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-39 (sending_email) - 8212 - 2025-07-09 22:47:30,707  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-51 (sending_email) - 5104 - 2025-07-09 22:47:30,711  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-57 (sending_email) - 9044 - 2025-07-09 22:47:30,713  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-55 (sending_email) - 18220 - 2025-07-09 22:47:30,715  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-56 (sending_email) - 15232 - 2025-07-09 22:47:30,716  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-49 (sending_email) - 14664 - 2025-07-09 22:47:30,738  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-36 (sending_email) - 16920 - 2025-07-09 22:47:30,742  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-53 (sending_email) - 15756 - 2025-07-09 22:47:30,780  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-40 (sending_email) - 17912 - 2025-07-09 22:47:30,786  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-60 (sending_email) - 13484 - 2025-07-09 22:47:31,460  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 18384 - 2025-07-09 22:50:05,675  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 18384 - 2025-07-09 22:50:05,889  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617475
+MainThread - 18384 - 2025-07-09 22:50:05,891  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 18128 - 2025-07-09 22:50:07,897  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: z0481238fc9a8534dd5943_PROJECTX1_8617475)
+asyncio_0 - 14384 - 2025-07-09 22:50:07,901  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 13360 - 2025-07-09 22:50:07,903  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 13360 - 2025-07-09 22:50:07,903  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (<lambda>) - 13112 - 2025-07-09 22:50:08,804  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+asyncio_0 - 14384 - 2025-07-09 22:50:08,811  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 17796 - 2025-07-09 22:50:08,813  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 17796 - 2025-07-09 22:50:08,814  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 13360 - 2025-07-09 22:50:09,603  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-4 (sending_email) - 17796 - 2025-07-09 22:50:10,401  - app - sending_email - 66 - INFO - [N/A] - sending mail
+MainThread - 18272 - 2025-07-09 22:52:24,335  - app - <module> - 24 - INFO - [N/A] - ************************************************************************
+MainThread - 18272 - 2025-07-09 22:52:24,725  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617475
+MainThread - 18272 - 2025-07-09 22:52:24,729  - app - start_websocket_for_all - 311 - INFO - [N/A] - Started connection for unique_code z0481238fc9a8534dd5943_PROJECTX1_8617480
+Thread-1 (<lambda>) - 204 - 2025-07-09 22:52:26,667  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617475 (code: z0481238fc9a8534dd5943_PROJECTX1_8617475)
+asyncio_0 - 12884 - 2025-07-09 22:52:26,669  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-3 (sending_email) - 9316 - 2025-07-09 22:52:26,669  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-3 (sending_email) - 9316 - 2025-07-09 22:52:26,670  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-2 (<lambda>) - 16532 - 2025-07-09 22:52:27,519  - app - on_connected - 85 - INFO - [N/A] - Connected to RTC Hub for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480)
+MainThread - 18272 - 2025-07-09 22:52:27,523  - app - subscribe_all - 166 - ERROR - [N/A] - Error subscribing for account 8617480 (code: z0481238fc9a8534dd5943_PROJECTX1_8617480): Hub is not running you cand send messages
+asyncio_0 - 12884 - 2025-07-09 22:52:27,524  - app - send_email - 30 - INFO - [N/A] - Your account has been successfully connected to ProjectX.
+Thread-4 (sending_email) - 9688 - 2025-07-09 22:52:27,525  - app - sending_email - 37 - INFO - [N/A] - sending mail ermohitgupta.16@gmail.com    Your account has been successfully connected to ProjectX.     mail_type connected
+Thread-4 (sending_email) - 9688 - 2025-07-09 22:52:27,526  - app - connect_email - 18 - INFO - [N/A] - connecting mail server..
+Thread-3 (sending_email) - 9316 - 2025-07-09 22:52:28,504  - app - sending_email - 66 - INFO - [N/A] - sending mail
+Thread-4 (sending_email) - 9688 - 2025-07-09 22:52:29,204  - app - sending_email - 66 - INFO - [N/A] - sending mail

@@ -1,0 +1,1 @@
+UNAUTHORIZED_LOG_OUT = "Unauthorized: You are logged out!"

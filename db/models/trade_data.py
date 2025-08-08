@@ -1,0 +1,92 @@
+
+from db.database import Base
+from sqlalchemy import Column, Integer, String,Boolean,Float,DateTime
+
+class trade_data(Base):
+    __tablename__ = 'trade_data'
+    row_id = Column(Integer(), primary_key=True, autoincrement=True)
+    user_id = Column(String())
+    symbol = Column(String())
+    buy_sell = Column(String())
+    local_symbol = Column(String())
+    # Should be date time but that is not important at this time
+    trade_time = Column(String())
+    user_price = Column(Float())
+    manual_tp = Column(Float())
+    manual_sl = Column(Float())
+    gtd_in_second = Column(Integer())
+
+
+    dollar_tp = Column(Float())
+    dollar_sl = Column(Float())
+    percentage_tp = Column(Float())
+    percentage_sl = Column(Float())
+
+    trail_stop = Column(Float())
+    trail_trigger = Column(Float())
+    trail_freq = Column(Float())
+
+    manual_trail = Column(Float())
+    strategy_name = Column(String())
+    order_type = Column(String())
+    quantity = Column(Integer())
+    limit_offset = Column(Float())
+    min_tick = Column(Float())
+    stop_offset = Column(Float())
+    TimeInForce = Column(String())
+    account = Column(String())
+    processed = Column(Boolean())
+    status = Column(String())
+    trade_type = Column(String())
+    order_id = Column(String())
+    inst_type = Column(String())
+    exitTime = Column(Integer())
+    oca_group = Column(String())
+    oca_type = Column(Integer())
+    timezone = Column(String())
+    lmt_price = Column(Float())
+    stp_price = Column(Float())
+    type = Column(String())
+    Currency = Column(String())
+    reverse_trade = Column(Boolean())
+    Exchange = Column(String())
+    MaturityDate = Column(String())
+    fromDatetime = Column(String())
+    toDatetime = Column(String())
+    moc_order = Column(Boolean())
+    position_trade = Column(Boolean())
+    EntryOffsetInPercentage = Column(Boolean())
+    trailing_stop = Column(Boolean())
+    trailing_stop_percentage = Column(Integer())
+    stop_loss_percentage = Column(Boolean())
+    take_profit_percentage = Column(Boolean())
+    eEntryOffset = Column(Float())
+    duplicate_position = Column(Boolean())
+    rth = Column(Boolean())
+    maximumOrder = Column(Integer())
+    sttpexitTime = Column(Integer())
+    tradeDate = Column(DateTime())
+    demo = Column(Boolean())
+    entry_id = Column(String())
+    lmt_id= Column(String())
+    stp_id= Column(String())
+    close_ids = Column(String())
+    update_ids = Column(String())
+    alert_data = Column(String())
+
+    entry_order_type = Column(String())
+    lmt_order_type = Column(String())
+    stp_order_type = Column(String())
+
+    entry_order_status = Column(String())
+    lmt_order_status = Column(String())
+    stp_order_status = Column(String())
+
+    alert_status = Column(String())
+    random_key = Column(String())
+
+    platform = Column(String())
+    server_date_time = Column(DateTime())
+    connection_name = Column(String())
+
+
