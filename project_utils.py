@@ -43,8 +43,18 @@ async def update_or_save_order_data(order_data_dict, unique_key):
             order_data['fill_volume'] = value
         elif key == 'limitPrice':
             order_data['limit_price'] = value
-        else:
-            order_data[key] = value
+        elif key == 'type':
+            order_data['type'] = value
+        elif key == 'status':
+            order_data['status'] = value
+        elif key == 'side':
+            order_data['side'] = value
+        elif key == 'size':
+            order_data['size'] = value
+        elif key == 'price':
+            order_data['price'] = value
+        elif key == 'fees':
+            order_data['fees'] = value
 
     try:
         existing_order = get_projectx_order_by_order_id(
@@ -52,7 +62,7 @@ async def update_or_save_order_data(order_data_dict, unique_key):
             connection_name=order_data['connection_name'],
             order_id=order_data['order_id']
         )
-
+        print("order_data:", order_data)
         if existing_order:
             # Update existing order
             for key, value in order_data.items():
