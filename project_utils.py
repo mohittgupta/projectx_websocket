@@ -6,6 +6,7 @@ from db.crud_utils.projectx_utils.projectx_orders_utils import get_projectx_orde
 from db.crud_utils.projectx_utils.projectx_position_utils import get_projectx_position_by_position_id
 from db.database import db_session
 from db.models.projectx_data import Projectx_Orders, Projectx_Positions, Projectx_Trades
+from sending_orders import sending_order
 
 
 async def update_or_save_order_data(order_data_dict, unique_key):
@@ -63,6 +64,9 @@ async def update_or_save_order_data(order_data_dict, unique_key):
             order_id=order_data['order_id']
         )
         print("order_data:", order_data)
+
+        await sending_order(order_data,user_id,account_id,connection_name)
+
         if existing_order:
             # Update existing order
             for key, value in order_data.items():

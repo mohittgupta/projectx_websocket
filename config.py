@@ -31,7 +31,7 @@ token_expiry_time_zone = {"timezone":""}
 
 #  Database ---------------
 # db_url = 'sqlite:///tradovate.db'
-db_url = "postgresql://postgres:moh123@localhost:5432/rithmic_new"
+db_url = "postgresql://postgres:postgres@localhost:5432/rithmic_new"
 
 from contextvars import ContextVar
 request_id_var = ContextVar("request_id", default="N/A")
@@ -317,3 +317,17 @@ PROJECTX_ORDER_TYPE = {
     6: "JoinBid",
     7: "JoinAsk"
 }
+
+
+PROJECTX_Sending_ORDER_TYPE = {
+    0: "Unknown",
+    1: "LMT",
+    2: "MKT",
+    3: "STPLMT",
+    4: "STP",
+    5:"STPTRAIL"
+}
+
+
+front_backet_url = ''
+code_frontend = ''

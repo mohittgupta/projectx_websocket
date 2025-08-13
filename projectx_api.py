@@ -55,6 +55,7 @@ class UserSignalRClient:
                 .build()
 
             # Register event handlers (synchronous)
+            logger.info(f"event subscribe done...")
             self.hub_connection.on("GatewayUserAccount", self.on_account_update)
             self.hub_connection.on("GatewayUserOrder", self.on_order_update)
             self.hub_connection.on("GatewayUserPosition", self.on_position_update)
@@ -66,7 +67,7 @@ class UserSignalRClient:
             logger.error(f"Error setting up connection for {self.unique_code}: {e}")
 
     def on_account_update(self, args):
-        logger.info(f"Account update for account {self.account_id} (code: {self.unique_code}): {args[0]}")
+        logger.info(f"Account update for account {self.account_id} (code: {self.unique_code}): {args[0]} {args}")
         asyncio.run_coroutine_threadsafe(self._async_account_update(args), self.loop)
 
     def on_order_update(self, args):
@@ -74,7 +75,7 @@ class UserSignalRClient:
         asyncio.run_coroutine_threadsafe(self._async_order_update(args), self.loop)
 
     def on_position_update(self, args):
-        logger.info(f"Position update for account {self.account_id} (code: {self.unique_code}): {args[0]}")
+        logger.info(f"Position update for account {self.account_id} (code: {self.unique_code}): {args[0]}  {args}")
         asyncio.run_coroutine_threadsafe(self._async_position_update(args), self.loop)
 
     def on_trade_update(self, args):
